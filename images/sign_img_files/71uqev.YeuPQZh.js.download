@@ -1,1 +1,0 @@
-(this.$WP=this.$WP||[]).push(["71uqev",(e,s)=>{var n;return[()=>{n=new Set(["en-US","es-AR","es-CL","es-VE"]),e({defaultEmailOptOutLocales:new Set(["en-CA","fr-CA","de-DE","es-CO","es-MX","es-PE","zh","zh-HK","en-HK","id","ja","en-PH","en-SG","vi","en-AU","de-AT","ar-EG","ru"]),emailOptInLocales:n})},[]]},[]]);
