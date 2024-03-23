@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 99%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.navbar_img {
+    width: 30%;
+    margin-top: 10px;
+    padding: 5px;
+    border: solid black 1px;
+    text-align: left;
+    padding-left: 40px;
+}
+
+.navbar_img img {
+    width: 50%;
+}
+
+.navbar_menu {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    border: solid black 1px;
+    align-items: center;
+    padding: 5px;
+    gap: 20px;
+}
+
+.navbar_login {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    padding: 5px;
+    border: solid black 1px;
+    align-items: center;
+    gap: 20px;
+    padding: 5px;
+}
+
+.navglo {
+    display: flex;
+    margin-left: 130px;
+    border: solid black 1px;
+    align-items: center;
+    padding: 10px;
+    border-radius: 15px;
+    gap: 5px;
+}
+
+.navsignin {
+    border: solid black 1px;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.gloname {
+    border-left: solid black 1px;
+    padding-left: 5px;
+}
+
+.whereto {
+    width: 99%;
+    margin: 30px;
+    border: solid black 1px;
+    text-align: center;
+}
+
+.whereto h1 {
+    font-size: 60px;
+}
+
+.search_up_menu {
+    display: flex;
+    border: solid black 1px;
+    width: 99%;
+    padding: 10px;
+    gap: 50px;
+    text-align: center;
+    justify-content: center;
+}
+
+.searchbar {
+    border: solid black 1px;
+    border-radius: 20px;
+    width: 50%;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    padding: 12px;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.searchbar input {
+    border: none;
+    background-color: transparent;
+    width: 70%;
+}
+
+.searchbar input:focus {
+    outline: none;
+}
+
+.search_icon {
+    border: solid black 1px;
+    padding: 5px;
+    flex: 70;
+}
+
+.search_green {
+    border: solid black 1px;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: #34E0A1;
+
+}
+
+.wall_img {
+    width: 90%;
+    background-color: #D7D6FB;
+    padding: 20px;
+    margin: 50px;
+    border-radius: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+
+}
+
+.wall_writing {
+    width: 20%;
+    border: solid black 1px;
+}
+
+.wall_im {
+    width: 40%;
+    border: solid black 1px;
+}
+
+.wall_im img {
+    width: 100%;
+}
+
+.wr_1 {
+    display: flex;
+    gap: 5px;
+    padding: 5px;
+}
+
+.wr_1 p {
+    color: grey;
+}
+
+.wr_1 h6 {
+    border: solid black 1px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    padding: 5px;
+}
+
+.wr_2 {
+    font-size: 20px;
+    padding: 5px;
+}
+
+.wr_3 {
+    padding: 5px;
+}
+
+.wr_3 h4 {
+    font-size: 15px;
+}
+
+.wr_4 {
+    padding: 5px;
+    display: flex;
+    gap: 5px;
+    border: solid black 1px;
+    margin: 5px;
+    border-radius: 100px;
+    justify-content: center;
+}
+
+.card_title {
+    border: solid black 1px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.card_title h3 {
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+.card_title h6 {
+    color: grey;
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 99%;
+    gap: 10px;
+   justify-content: space-around;
+   padding: 5px;
+}
+
+.car_img1 {
+    width: 20%;
+    position: relative;
+    display: inline-block;
+    padding: 5px;
+}
+.car_img1 img{
+    width: 100%;
+    height: 200px;
+}
+
+.car_img2 {
+    width: 20%;
+    position: relative;
+    display: inline-block;
+}
+.car_img2 img{
+    width: 100%;
+}
+
+.car_img3 {
+    width: 20%;
+    position: relative;
+    display: inline-block;
+}
+.car_img3 img{
+    width: 100%;
+}
+
+.car_img4 {
+    width: 20%;
+    position: relative;
+    display: inline-block;
+}
+.car_img4 img{
+    width: 100%;
+}
+.image-name{
+    font-size: 20px;
+    position: absolute;
+    bottom: 10px; 
+    left: 10px; 
+    color: white; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 5px 10px;
+    border-radius: 5px; 
+}
+.arrow {
+    position: absolute;
+    background-color: black;
+    border-radius: 30px;
+    border: 5px;
+    padding: 5px;
+    top: 50%;
+    right: -15px; 
+    transform: translateY(-50%);
+    font-size: 24px; 
+    color: white; 
+    cursor: pointer; 
+}
+.like-button {
+    position: absolute;
+    top: 10px;
+    right: 10px; 
+    width: 24px; 
+    height: 24px;
+    background-color:transparent; 
+    cursor: pointer;
+}
+.like-button::before {
+    content: '\2665'; 
+    font-size: 24px; 
+    color: white; 
+}
+.vid{
+    width:30%;
+    padding: 5px;
+    border:  solid black 1px;
+}
+.video-container {
+    position: relative;
+    width: 50%; 
+    max-width: 400px;
+}
